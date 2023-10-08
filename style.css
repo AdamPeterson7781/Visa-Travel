@@ -170,7 +170,7 @@
 /*Home*/
 
 .home-section{
-    background: url(/img-visa/home-img-1.png) no-repeat;
+    background: url(./img-visa/home-img-1.png) no-repeat;
     background-position: center;
     background-size: cover;
     width:100%;
@@ -1216,7 +1216,7 @@ i{
 
 /*Testimonials*/
 .Testimonials{
-    background: url(/img-visa/Testimonials-bg-img.png) no-repeat;
+    background: url(./img-visa/Testimonials-bg-img.png) no-repeat;
     margin: 150px 0 150px 0;
 }
 
