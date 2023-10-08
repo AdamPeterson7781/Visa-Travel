@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    <!--/Bootstrap-->
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--/Font-->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img-visa/Visa.svg">
+    <!---->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <div class="overflow">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+              <img src="/img-visa/Visa.svg" class="nav-img-1">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item nav-item-actived">
+                  <a class="nav-link" aria-current="page" href="#">Travel Document</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#Destination">Destinations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#choose">Why us?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#Work">Aplly now</a>
+                </li>
+              </ul>
+  
+              <form class="d-flex form">
+                  <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              English
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Russian</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+  
+                  <div class="d-sm-flex">
+                    <button class="btn nav-btn-1" type="submit">Log in</button>
+                    <button class="btn nav-btn-2" type="submit">Get Started</button>
+                  </div>
+              </form>
+  
+            </div>
+  
+          </div>
+      </nav>
+      <!--/Navbar-->
+  
+      <!--Home-->
+      <section class="home-section">
+          <div class="container-fluid"> 
+              
+              <div class="row">
+                  <div class="col-lg-6 col-12 home-div-1">
+                      <p class="home-txt-1">Choose where <span>you want</span> to go and leave the rest on us</p>
+                      <p class="home-txt-2">With our help you will get a visa to more than 50+ as quickly and easily as possible</p>
+                  </div>
+  
+                  <div class="col-lg-6 col-12 home-div-2">
+                      <div class="card">
+                          <p class="home-txt-3">Search for Visa here</p>
+                          <select class="home-selector">
+                              <option selected> What is Your Citizen Ship?</option>
+                              <option value="1">Uzbekiston</option>
+                              <option value="2">Russia</option>
+                              <option value="3">USA</option>
+                          </select>
+  
+                          <select class="home-selector">
+                              <option selected>I am Going To</option>
+                              <option value="1">Uzbekiston</option>
+                              <option value="2">Russia</option>
+                              <option value="3">USA</option>
+                          </select>
+  
+                          <button class="home-btn-1">Next Step</button>
+                          
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="row home-div-3">
+                  <div class="col-lg-3 col-12 small-1">
+                      <p class="home-txt-4">2 Million</p>
+                      <p class="home-txt-5">Happy Customers</p>
+                  </div>
+                  <div class="col-lg-3 col-12 small-2">
+                      <p class="home-txt-4">90%</p>
+                      <p class="home-txt-5">On Time Delivery</p>
+                  </div>
+                  <div class="col-lg-3 col-12 small-3">
+                      <p class="home-txt-4">10+</p>
+                      <p class="home-txt-5">Year of Experience</p>
+                  </div>
+                  <div class="col-lg-3 col-12 small-4">
+                      <p class="home-txt-4">4.5 <i class="bi bi-star-fill"></i></p>
+                      <p class="home-txt-5">Trustpilot</p>
+                  </div>
+  
+                  <div class="col-12 small-5">
+                      <p class="home-txt-6">Trustpilot Recommended. We <b> lead the industry</b> in innovation and reputation</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--/Home-->
+  
+      <!--Destinations-->
+      <section id="Destination">
+          <div class="container-fluid mb-5">
+              <p class="destinations-title">Featured <span>destinations</span></p>
+              <button class="destinations-btn-1 float-end">View all ></button>
+  
+              <div class="scroll-container">
+                  <div class="d-flex">
+              
+                          <div class="card card-for-div d-card-1">
+                              <img src="/img-visa/destinations-img-1.jpg" class="destinations-img-1 shadow">
+                              <p class="destinations-name">Card Title</p>
+                              <p class="destinations-txt-1">Lorem ipsum dolor sit <br class="br-1"> amet consectetur, <br> adipisicing elit. Modi, eos!</p>
+                              <button class="destinations-btn-2">Learn More</button>
+                          </div>
+  
+                          <div class="card card-for-div d-card-2">
+                              <img src="/img-visa/destinations-img-2.jpg" class="destinations-img-1 shadow">
+                              <p class="destinations-name">Card Title</p>
+                              <p class="destinations-txt-1">Lorem ipsum dolor sit <br class="br-1"> amet consectetur, <br> adipisicing elit. Modi, eos!</p>
+                              <button class="destinations-btn-2">Learn More</button>
+                          </div>
+  
+                          <div class="card card-for-div d-card-3">
+                              <img src="/img-visa/destinations-img-3.jpg" class="destinations-img-1 shadow">
+                              <p class="destinations-name">Card Title</p>
+                              <p class="destinations-txt-1">Lorem ipsum dolor sit <br class="br-1"> amet consectetur, <br> adipisicing elit. Modi, eos!</p>
+                              <button class="destinations-btn-2">Learn More</button>
+                          </div>
+  
+                          <div class="card card-for-div d-card-4">
+                              <img src="/img-visa/destinations-img-4.jpg" class="destinations-img-1 shadow">
+                              <p class="destinations-name">Card Title</p>
+                              <p class="destinations-txt-1">Lorem ipsum dolor sit <br class="br-1"> amet consectetur, <br> adipisicing elit. Modi, eos!</p>
+                              <button class="destinations-btn-2">Learn More</button>
+                          </div>
+  
+                  </div>
+              </div>
+  
+              
+              <div class="d-flex justify-content-center mt-5">
+                  <a href="#">
+                      <div class="destinations-arrow-left d-flex justify-content-center align-items-center me-2">
+                          <i class="bi bi-arrow-left text-black"></i>
+                      </div>
+                  </a>
+  
+                  <a href="#">
+                      <div class="destinations-arrow-right d-flex justify-content-center align-items-center">
+                          <i class="bi bi-arrow-right text-white"></i>
+                      </div>
+                  </a>
+              </div>
+  
+          </div>
+      </section>
+      <!--/Destinations-->
+  
+      <!--Choose-->
+      <section class="choose" id="choose">
+          <div class="container">
+              <p class="choose-txt-1 text-center"><span>Why</span> Choose Us?</p>
+              <p class="choose-txt-2 text-center">Lorem ipsum dolor sit amet consectetur. Ullamcorper id ullamcorper nec facilisi quam faucibus. Iaculis commodo pharetra eu pellentesque mauris amet tellus.</p>
+  
+              <div class="row choose-scroll-container">
+                  <div class="col-md-3 col-12">
+                      <div class="choose-div-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                              <path d="M17.0001 27.4411C14.4642 27.4411 11.9284 26.4778 9.98754 24.537C6.12004 20.6695 6.12004 14.3795 9.98754 10.512C13.855 6.64445 20.1451 6.64445 24.0126 10.512C27.8801 14.3795 27.8801 20.6695 24.0126 24.537C22.0717 26.4778 19.5359 27.4411 17.0001 27.4411ZM17.0001 9.7328C15.0026 9.7328 13.005 10.4978 11.4892 12.0136C8.45754 15.0595 8.45754 19.9895 11.4892 23.0353C14.535 26.0812 19.4792 26.067 22.5109 23.0353C25.5426 19.9895 25.5426 15.0595 22.5109 12.0136C20.9951 10.4978 18.9976 9.7328 17.0001 9.7328Z" fill="white"/>
+                              <path d="M11.6875 31.7194C11.56 31.7194 11.4183 31.6911 11.2908 31.6486C8.1033 30.3736 5.52496 28.1211 3.79662 25.1461C2.12496 22.2419 1.45913 18.9552 1.8983 15.6119C1.96913 15.0311 2.50746 14.6202 3.08829 14.691C3.66912 14.7619 4.07995 15.3003 4.00912 15.8811C3.64078 18.7428 4.20748 21.576 5.63832 24.0694C7.11165 26.6194 9.33579 28.5602 12.07 29.651C12.6083 29.8777 12.8775 30.4868 12.665 31.0393C12.5091 31.4643 12.0983 31.7194 11.6875 31.7194Z" fill="white"/>
+                              <path d="M8.28744 7.40909C7.97577 7.40909 7.66411 7.26745 7.45161 6.99829C7.08328 6.53079 7.16828 5.86497 7.63578 5.5108C10.3416 3.39997 13.5716 2.28076 16.9999 2.28076C20.3433 2.28076 23.5308 3.35745 26.2083 5.39745C26.6758 5.75161 26.7608 6.41743 26.4066 6.88493C26.0524 7.35243 25.3866 7.43745 24.9191 7.08328C22.6241 5.32662 19.8899 4.40576 16.9999 4.40576C14.0533 4.40576 11.2624 5.36913 8.93909 7.18246C8.74076 7.33829 8.5141 7.40909 8.28744 7.40909Z" fill="white"/>
+                              <path d="M22.3128 31.7194C21.8878 31.7194 21.4912 31.4643 21.3212 31.0535C21.1087 30.5152 21.3637 29.8919 21.9162 29.6652C24.6503 28.5602 26.8745 26.6335 28.3479 24.0835C29.7929 21.5902 30.3595 18.7568 29.977 15.8952C29.9062 15.3143 30.317 14.776 30.8978 14.7052C31.4645 14.6344 32.017 15.0452 32.0878 15.6261C32.5128 18.9552 31.8612 22.256 30.1895 25.1602C28.4753 28.1352 25.8828 30.3735 22.6953 31.6627C22.582 31.691 22.4545 31.7194 22.3128 31.7194Z" fill="white"/>
+                          </svg>
+                      </div>
+                      <div class="blur-div"></div>
+  
+                      <p class="choose-num-1">01</p>
+                      <p class="schoose-txt-3">Speed and Simplicity</p>
+                      <p class="schoose-txt-4">Easy, traveler-friendly application process. simple and much less complicated than dealing with foriedn governments</p>
+                  </div>
+                  <div class="col-md-3 col-12">
+                      <div class="choose-div-1 choose-div-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                              <path d="M17.0001 27.4411C14.4642 27.4411 11.9284 26.4778 9.98754 24.537C6.12004 20.6695 6.12004 14.3795 9.98754 10.512C13.855 6.64445 20.1451 6.64445 24.0126 10.512C27.8801 14.3795 27.8801 20.6695 24.0126 24.537C22.0717 26.4778 19.5359 27.4411 17.0001 27.4411ZM17.0001 9.7328C15.0026 9.7328 13.005 10.4978 11.4892 12.0136C8.45754 15.0595 8.45754 19.9895 11.4892 23.0353C14.535 26.0812 19.4792 26.067 22.5109 23.0353C25.5426 19.9895 25.5426 15.0595 22.5109 12.0136C20.9951 10.4978 18.9976 9.7328 17.0001 9.7328Z" fill="white"/>
+                              <path d="M11.6875 31.7194C11.56 31.7194 11.4183 31.6911 11.2908 31.6486C8.1033 30.3736 5.52496 28.1211 3.79662 25.1461C2.12496 22.2419 1.45913 18.9552 1.8983 15.6119C1.96913 15.0311 2.50746 14.6202 3.08829 14.691C3.66912 14.7619 4.07995 15.3003 4.00912 15.8811C3.64078 18.7428 4.20748 21.576 5.63832 24.0694C7.11165 26.6194 9.33579 28.5602 12.07 29.651C12.6083 29.8777 12.8775 30.4868 12.665 31.0393C12.5091 31.4643 12.0983 31.7194 11.6875 31.7194Z" fill="white"/>
+                              <path d="M8.28744 7.40909C7.97577 7.40909 7.66411 7.26745 7.45161 6.99829C7.08328 6.53079 7.16828 5.86497 7.63578 5.5108C10.3416 3.39997 13.5716 2.28076 16.9999 2.28076C20.3433 2.28076 23.5308 3.35745 26.2083 5.39745C26.6758 5.75161 26.7608 6.41743 26.4066 6.88493C26.0524 7.35243 25.3866 7.43745 24.9191 7.08328C22.6241 5.32662 19.8899 4.40576 16.9999 4.40576C14.0533 4.40576 11.2624 5.36913 8.93909 7.18246C8.74076 7.33829 8.5141 7.40909 8.28744 7.40909Z" fill="white"/>
+                              <path d="M22.3128 31.7194C21.8878 31.7194 21.4912 31.4643 21.3212 31.0535C21.1087 30.5152 21.3637 29.8919 21.9162 29.6652C24.6503 28.5602 26.8745 26.6335 28.3479 24.0835C29.7929 21.5902 30.3595 18.7568 29.977 15.8952C29.9062 15.3143 30.317 14.776 30.8978 14.7052C31.4645 14.6344 32.017 15.0452 32.0878 15.6261C32.5128 18.9552 31.8612 22.256 30.1895 25.1602C28.4753 28.1352 25.8828 30.3735 22.6953 31.6627C22.582 31.691 22.4545 31.7194 22.3128 31.7194Z" fill="white"/>
+                          </svg>
+                      </div>
+                      <div class="blur-div blur-div-2"></div>
+                      <p class="choose-num-1">02</p>
+                      <p class="schoose-txt-3">Get <br> Approved</p>
+                      <p class="schoose-txt-4">Easy, traveler-friendly application process. simple and much less complicated than dealing with foriedn governments</p>
+                  </div>
+                  <div class="col-md-3 col-12">
+                      <div class="choose-div-1 choose-div-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                              <path d="M17.0001 27.4411C14.4642 27.4411 11.9284 26.4778 9.98754 24.537C6.12004 20.6695 6.12004 14.3795 9.98754 10.512C13.855 6.64445 20.1451 6.64445 24.0126 10.512C27.8801 14.3795 27.8801 20.6695 24.0126 24.537C22.0717 26.4778 19.5359 27.4411 17.0001 27.4411ZM17.0001 9.7328C15.0026 9.7328 13.005 10.4978 11.4892 12.0136C8.45754 15.0595 8.45754 19.9895 11.4892 23.0353C14.535 26.0812 19.4792 26.067 22.5109 23.0353C25.5426 19.9895 25.5426 15.0595 22.5109 12.0136C20.9951 10.4978 18.9976 9.7328 17.0001 9.7328Z" fill="white"/>
+                              <path d="M11.6875 31.7194C11.56 31.7194 11.4183 31.6911 11.2908 31.6486C8.1033 30.3736 5.52496 28.1211 3.79662 25.1461C2.12496 22.2419 1.45913 18.9552 1.8983 15.6119C1.96913 15.0311 2.50746 14.6202 3.08829 14.691C3.66912 14.7619 4.07995 15.3003 4.00912 15.8811C3.64078 18.7428 4.20748 21.576 5.63832 24.0694C7.11165 26.6194 9.33579 28.5602 12.07 29.651C12.6083 29.8777 12.8775 30.4868 12.665 31.0393C12.5091 31.4643 12.0983 31.7194 11.6875 31.7194Z" fill="white"/>
+                              <path d="M8.28744 7.40909C7.97577 7.40909 7.66411 7.26745 7.45161 6.99829C7.08328 6.53079 7.16828 5.86497 7.63578 5.5108C10.3416 3.39997 13.5716 2.28076 16.9999 2.28076C20.3433 2.28076 23.5308 3.35745 26.2083 5.39745C26.6758 5.75161 26.7608 6.41743 26.4066 6.88493C26.0524 7.35243 25.3866 7.43745 24.9191 7.08328C22.6241 5.32662 19.8899 4.40576 16.9999 4.40576C14.0533 4.40576 11.2624 5.36913 8.93909 7.18246C8.74076 7.33829 8.5141 7.40909 8.28744 7.40909Z" fill="white"/>
+                              <path d="M22.3128 31.7194C21.8878 31.7194 21.4912 31.4643 21.3212 31.0535C21.1087 30.5152 21.3637 29.8919 21.9162 29.6652C24.6503 28.5602 26.8745 26.6335 28.3479 24.0835C29.7929 21.5902 30.3595 18.7568 29.977 15.8952C29.9062 15.3143 30.317 14.776 30.8978 14.7052C31.4645 14.6344 32.017 15.0452 32.0878 15.6261C32.5128 18.9552 31.8612 22.256 30.1895 25.1602C28.4753 28.1352 25.8828 30.3735 22.6953 31.6627C22.582 31.691 22.4545 31.7194 22.3128 31.7194Z" fill="white"/>
+                          </svg>
+                      </div>
+                      <div class="blur-div blur-div-3"></div>
+                      <p class="choose-num-1">03</p>
+                      <p class="schoose-txt-3">Secure & <br> Safe</p>
+                      <p class="schoose-txt-4">Easy, traveler-friendly application process. simple and much less complicated than dealing with foriedn governments</p>
+                  </div>
+                  <div class="col-md-3 col-12">
+                      <div class="choose-div-1 choose-div-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                              <path d="M17.0001 27.4411C14.4642 27.4411 11.9284 26.4778 9.98754 24.537C6.12004 20.6695 6.12004 14.3795 9.98754 10.512C13.855 6.64445 20.1451 6.64445 24.0126 10.512C27.8801 14.3795 27.8801 20.6695 24.0126 24.537C22.0717 26.4778 19.5359 27.4411 17.0001 27.4411ZM17.0001 9.7328C15.0026 9.7328 13.005 10.4978 11.4892 12.0136C8.45754 15.0595 8.45754 19.9895 11.4892 23.0353C14.535 26.0812 19.4792 26.067 22.5109 23.0353C25.5426 19.9895 25.5426 15.0595 22.5109 12.0136C20.9951 10.4978 18.9976 9.7328 17.0001 9.7328Z" fill="white"/>
+                              <path d="M11.6875 31.7194C11.56 31.7194 11.4183 31.6911 11.2908 31.6486C8.1033 30.3736 5.52496 28.1211 3.79662 25.1461C2.12496 22.2419 1.45913 18.9552 1.8983 15.6119C1.96913 15.0311 2.50746 14.6202 3.08829 14.691C3.66912 14.7619 4.07995 15.3003 4.00912 15.8811C3.64078 18.7428 4.20748 21.576 5.63832 24.0694C7.11165 26.6194 9.33579 28.5602 12.07 29.651C12.6083 29.8777 12.8775 30.4868 12.665 31.0393C12.5091 31.4643 12.0983 31.7194 11.6875 31.7194Z" fill="white"/>
+                              <path d="M8.28744 7.40909C7.97577 7.40909 7.66411 7.26745 7.45161 6.99829C7.08328 6.53079 7.16828 5.86497 7.63578 5.5108C10.3416 3.39997 13.5716 2.28076 16.9999 2.28076C20.3433 2.28076 23.5308 3.35745 26.2083 5.39745C26.6758 5.75161 26.7608 6.41743 26.4066 6.88493C26.0524 7.35243 25.3866 7.43745 24.9191 7.08328C22.6241 5.32662 19.8899 4.40576 16.9999 4.40576C14.0533 4.40576 11.2624 5.36913 8.93909 7.18246C8.74076 7.33829 8.5141 7.40909 8.28744 7.40909Z" fill="white"/>
+                              <path d="M22.3128 31.7194C21.8878 31.7194 21.4912 31.4643 21.3212 31.0535C21.1087 30.5152 21.3637 29.8919 21.9162 29.6652C24.6503 28.5602 26.8745 26.6335 28.3479 24.0835C29.7929 21.5902 30.3595 18.7568 29.977 15.8952C29.9062 15.3143 30.317 14.776 30.8978 14.7052C31.4645 14.6344 32.017 15.0452 32.0878 15.6261C32.5128 18.9552 31.8612 22.256 30.1895 25.1602C28.4753 28.1352 25.8828 30.3735 22.6953 31.6627C22.582 31.691 22.4545 31.7194 22.3128 31.7194Z" fill="white"/>
+                          </svg>
+                      </div>
+                      <div class="blur-div blur-div-4"></div>
+                      <p class="choose-num-1">04</p>
+                      <p class="schoose-txt-3">Awesome <br> Support</p>
+                      <p class="schoose-txt-4">Easy, traveler-friendly application process. simple and much less complicated than dealing with foriedn governments</p>
+                  </div>
+              </div>
+  
+              <div class="d-flex justify-content-center">
+                  <button class="choose-btn">Apply Now</button>
+              </div>
+          </div>
+      </section>
+      <!--/Choose-->
+  
+      <!--Work-->
+      <section class="Work" id="Work">
+          <div class="container">
+              <p class="work-title">How it <span>Work</span></p>
+  
+              <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link p-l-1 d-flex justify-content-center align-items-center" href="#">Electronic Visa (e-visa)</a></li>
+                    <li class="page-item"><a class="page-link p-l-2 d-flex justify-content-center align-items-center" href="#">e-Visa on Arrival</a></li>
+                    <li class="page-item"><a class="page-link p-l-3 d-flex justify-content-center align-items-center" href="#">Health Declaration</a></li>
+                    <li class="page-item"><a class="page-link p-l-4 d-flex justify-content-center align-items-center" href="#">Guided Application</a></li>
+                  </ul>
+              </nav>
+              
+              <div class="work-scroll-container d-flex justify-content-between">
+                  <div class="work-card">
+                      <img src="/img-visa/work-img-1.png" class="work-img-1">
+                      <p class="work-txt-1">Full out online Applications</p>
+                      <p class="work-txt-2">
+                          Computer our easy online applicaTion <br>
+                          and pay with credit card or palpay
+                      </p>
+                  </div>
+      
+                  <div class="work-card">
+                      <img src="/img-visa/work-img-2.png" class="work-img-1">
+                      <p class="work-txt-1">Receive document visa email</p>
+                      <p class="work-txt-2">
+                          No  need to deal with the embasy. <br>
+                          we do it for you so you don’t lose <br>
+                          valuable time.
+                      </p>
+                  </div>
+      
+                  <div class="work-card">
+                      <img src="/img-visa/work-img-3.png" class="work-img-1">
+                      <p class="work-txt-1">Enter destination</p>
+                      <p class="work-txt-2">
+                          Presend your Passport anddocument <br>
+                          we provide uupon entry to <br>
+                          destination country
+                      </p>
+                  </div>
+              </div>
+  
+              <div class="d-flex justify-content-center">
+                  <button class="work-btn">Apply Now</button>
+              </div>
+          </div>
+      </section>
+      <!--/Work-->
+  
+      <!--Testimonials-->
+      <section class="Testimonials">
+          <div class="container">
+              <p class="testimonials-txt-1 text-center"><span>Testi</span>monials</p>
+              <p class="testimonials-txt-2 text-center">Our clients send us bunch of smiles with our services and we love them</p>
+              
+              <div class="testimonials-scroll-container">
+                  <div class="d-flex justify-content-between">
+                      <div class="testimonials-card-1">
+                          <img src="/img-visa/Testimonials-face-1.svg" class="testimonials-face-1">
+                          <p class="testimonials-card-txt-1">UI Soup</p>
+                          <img src="/img-visa/Testimonials-flag-1.png" class="testimonials-flag-1">
+                          <p class="testimonials-card-txt-2">Canada</p>
+      
+                          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="40" viewBox="0 0 44 40" fill="none" class="testimonials-asset">
+                              <path opacity="0.2" d="M34.1902 40L43.9991 18.4874V0H23.9492V19.608H31.6021L23.9492 40H34.1902ZM26.9428 16.4962V3.11336H41.0039V17.7867L32.2935 36.8866H28.3304L35.9801 16.4979H26.9428V16.4962Z" fill="#2C2738"/>
+                              <path opacity="0.2" d="M10.241 40L20.0499 18.4874V0H0V19.608H7.65443L0 40H10.241ZM2.99357 16.4962V3.11336H17.0547V17.7867L8.34586 36.8866H4.38271L12.0324 16.4979H2.99357V16.4962Z" fill="#2C2738"/>
+                          </svg>
+      
+                          <p class="testimonials-card-txt-3">Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br class="tesm-br-small"> elit, sed do <br class="testm-br-1"> eiusmod tempor  <br class="tesm-br-small"> incididunt.</p>
+                          
+                          <div class="testimonials-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                          </div>
+                      </div>
+                      <div class="testimonials-card-1">
+                          <img src="/img-visa/Testimonials-face-2.svg" class="testimonials-face-1">
+                          <p class="testimonials-card-txt-1">Andrea</p>
+                          <img src="/img-visa/Testimonials-flag-2.png" class="testimonials-flag-1">
+                          <p class="testimonials-card-txt-2">California, USA</p>
+      
+                          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="40" viewBox="0 0 44 40" fill="none" class="testimonials-asset">
+                              <path opacity="0.2" d="M34.1902 40L43.9991 18.4874V0H23.9492V19.608H31.6021L23.9492 40H34.1902ZM26.9428 16.4962V3.11336H41.0039V17.7867L32.2935 36.8866H28.3304L35.9801 16.4979H26.9428V16.4962Z" fill="#2C2738"/>
+                              <path opacity="0.2" d="M10.241 40L20.0499 18.4874V0H0V19.608H7.65443L0 40H10.241ZM2.99357 16.4962V3.11336H17.0547V17.7867L8.34586 36.8866H4.38271L12.0324 16.4979H2.99357V16.4962Z" fill="#2C2738"/>
+                          </svg>
+      
+                          <p class="testimonials-card-txt-3">Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br class="tesm-br-small"> elit, sed do <br class="testm-br-1"> eiusmod tempor  <br class="tesm-br-small"> incididunt.</p>
+                          
+                          <div class="testimonials-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                          </div>
+                      </div>
+                      <div class="testimonials-card-1">
+                          <img src="/img-visa/Testimonials-face-3.svg" class="testimonials-face-1">
+                          <p class="testimonials-card-txt-1">Sophia</p>
+                          <img src="/img-visa/Testimonials-flag-2.png" class="testimonials-flag-1">
+                          <p class="testimonials-card-txt-2">California, USA</p>
+      
+                          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="40" viewBox="0 0 44 40" fill="none" class="testimonials-asset">
+                              <path opacity="0.2" d="M34.1902 40L43.9991 18.4874V0H23.9492V19.608H31.6021L23.9492 40H34.1902ZM26.9428 16.4962V3.11336H41.0039V17.7867L32.2935 36.8866H28.3304L35.9801 16.4979H26.9428V16.4962Z" fill="#2C2738"/>
+                              <path opacity="0.2" d="M10.241 40L20.0499 18.4874V0H0V19.608H7.65443L0 40H10.241ZM2.99357 16.4962V3.11336H17.0547V17.7867L8.34586 36.8866H4.38271L12.0324 16.4979H2.99357V16.4962Z" fill="#2C2738"/>
+                          </svg>
+      
+                          <p class="testimonials-card-txt-3">Lorem ipsum dolor sit amet, <br> consectetur adipiscing <br class="tesm-br-small"> elit, sed do <br class="testm-br-1"> eiusmod tempor  <br class="tesm-br-small"> incididunt.</p>
+                          
+                          <div class="testimonials-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--/Testimonials-->
+  
+      <!--Footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="row justify-content-between center-small">
+              <div class="col-lg-2 col-12">
+                  <div class="row footer-first-div-text">
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <img src="/img-visa/Footer-Visa-img.svg" class="Footer-Visa-img">
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">adampeterson7781@gmail.com</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">+99893-469-7781</p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="col-lg-2 col-12">
+                  <div class="row footer-first-div-text">
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                          <p class="footer-list-main-txt-1">Use Cases</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Professors / Students</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Libraries</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Bookstores</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Publishers</p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="col-lg-2 col-12">
+                  <div class="row footer-first-div-text">
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                          <p class="footer-list-main-txt-1">About</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Contacts</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">About us</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">FAQ</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Terms of service</p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="col-lg-2 col-12">
+                  <div class="row footer-first-div-text">
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                          <p class="footer-list-main-txt-1">Product</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Terms of use</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Privacy policy</p>
+                      </a>
+                    </div>
+                    <div class="col-12">
+                      <a href="#" class="text-decoration-none">
+                        <p class="footer-list-txt-1">Log in</p>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="col-12 d-flex justify-content-center social-media">
+                  <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="159" height="20" viewBox="0 0 159 20" fill="none">
+                          <path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M51.2014 10.0762V19.7388C51.2014 19.8694 51.3185 20 51.4824 20H55.3466C55.4871 20 55.6276 19.8912 55.6276 19.7388V9.90207H58.4145C58.555 9.90207 58.6721 9.79325 58.6955 9.66268L58.9297 6.7247C58.9532 6.57236 58.8126 6.44178 58.6487 6.44178H55.6042V4.35256C55.6042 3.85201 56.0258 3.46028 56.5644 3.46028H58.719C58.8595 3.46028 59 3.35147 59 3.19913V0.261153C59 0.130576 58.8829 0 58.719 0H55.0656C52.9344 0 51.2014 1.61045 51.2014 3.59086V6.44178H49.281C49.1405 6.44178 49 6.5506 49 6.70294V9.66268C49 9.79325 49.1171 9.92383 49.281 9.92383H51.2014V10.0762Z" fill="white"/>
+                          <g opacity="0.8">
+                            <path d="M148.983 13.3292C148.325 13.3292 147.681 13.1339 147.133 12.768C146.586 12.4021 146.159 11.882 145.907 11.2735C145.655 10.665 145.589 9.99549 145.717 9.34953C145.846 8.70357 146.163 8.11022 146.629 7.64451C147.094 7.17881 147.688 6.86165 148.334 6.73316C148.98 6.60468 149.649 6.67062 150.258 6.92266C150.866 7.1747 151.386 7.60152 151.752 8.14913C152.118 8.69675 152.313 9.34057 152.313 9.99918C152.313 10.4365 152.227 10.8695 152.06 11.2735C151.892 11.6775 151.647 12.0446 151.338 12.3538C151.029 12.6631 150.662 12.9084 150.258 13.0757C149.854 13.243 149.421 13.3292 148.983 13.3292Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M158.48 3.45C158.765 4.2294 158.921 5.0503 158.94 5.88C159 6.94 159 7.28 159 10C159 11.6746 158.977 12.4471 158.96 13.0409C158.949 13.4116 158.94 13.7126 158.94 14.12C158.921 14.9497 158.765 15.7706 158.48 16.55C158.228 17.2182 157.832 17.8226 157.32 18.32C156.825 18.8326 156.22 19.2258 155.55 19.47C154.773 19.7638 153.951 19.9228 153.12 19.94C152.06 20 151.72 20 149 20C146.28 20 145.94 20 144.88 19.94C144.049 19.9228 143.227 19.7638 142.45 19.47C141.782 19.2234 141.177 18.8304 140.68 18.32C140.167 17.8248 139.774 17.2196 139.53 16.55C139.236 15.7727 139.077 14.9509 139.06 14.12C139 13.06 139 12.72 139 10C139 7.28 139 6.94 139.06 5.88C139.077 5.04915 139.236 4.22734 139.53 3.45C139.774 2.78044 140.167 2.17518 140.68 1.68C141.177 1.16956 141.782 0.776648 142.45 0.53C143.227 0.236161 144.049 0.0772105 144.88 0.0600004C145.94 0 146.28 0 149 0C151.72 0 152.06 0 153.12 0.0600004C153.951 0.0772105 154.773 0.236161 155.55 0.53C156.22 0.774176 156.825 1.16743 157.32 1.68C157.83 2.17928 158.226 2.78313 158.48 3.45ZM154.325 3.45898C154.088 3.45898 153.856 3.52936 153.658 3.66122C153.461 3.79308 153.307 3.98049 153.216 4.19976C153.126 4.41904 153.102 4.66032 153.148 4.89309C153.194 5.12587 153.309 5.33969 153.476 5.50751C153.644 5.67534 153.858 5.78962 154.091 5.83593C154.324 5.88223 154.565 5.85846 154.784 5.76764C155.003 5.67681 155.191 5.52301 155.323 5.32567C155.455 5.12833 155.525 4.89632 155.525 4.65898C155.525 4.34072 155.399 4.0355 155.174 3.81046C154.948 3.58541 154.643 3.45898 154.325 3.45898ZM148.983 4.86918C147.969 4.87116 146.978 5.17371 146.136 5.7386C145.294 6.30349 144.638 7.10538 144.251 8.04293C143.864 8.98049 143.764 10.0116 143.963 11.0061C144.162 12.0006 144.652 12.9137 145.369 13.6302C146.087 14.3466 147.001 14.8342 147.996 15.0313C148.991 15.2285 150.022 15.1263 150.959 14.7377C151.896 14.3491 152.696 13.6916 153.259 12.8482C153.823 12.0048 154.123 11.0134 154.123 9.99918C154.125 9.32428 153.992 8.65579 153.735 8.03214C153.477 7.40849 153.098 6.84199 152.62 6.36523C152.142 5.88847 151.575 5.51086 150.951 5.25411C150.327 4.99736 149.658 4.86654 148.983 4.86918Z" fill="white"/>
+                          </g>
+                          <path opacity="0.8" d="M109 3.89517C108.248 4.21825 107.452 4.43298 106.637 4.53275C107.496 4.0313 108.138 3.23727 108.441 2.30111C107.638 2.77031 106.759 3.10076 105.842 3.27818C105.28 2.6868 104.55 2.27563 103.747 2.09812C102.944 1.92061 102.106 1.98498 101.341 2.28285C100.576 2.58072 99.9195 3.09832 99.4572 3.76835C98.9949 4.43838 98.7481 5.22984 98.7488 6.03983C98.7456 6.34892 98.7775 6.65739 98.8438 6.95952C97.2127 6.88078 95.6168 6.464 94.1604 5.7364C92.7041 5.00881 91.4201 3.98679 90.3925 2.73716C89.8648 3.62518 89.7013 4.67797 89.9353 5.68064C90.1693 6.68331 90.7831 7.56026 91.6515 8.13252C91.0027 8.11526 90.3677 7.94472 89.7999 7.63529V7.67927C89.801 8.61148 90.1282 9.51487 90.7265 10.2374C91.3249 10.9599 92.1577 11.4574 93.085 11.6461C92.7342 11.7371 92.3727 11.7819 92.0099 11.7791C91.7494 11.7836 91.4892 11.7605 91.2338 11.7101C91.4988 12.5113 92.0095 13.2119 92.6956 13.7155C93.3818 14.2191 94.2096 14.5009 95.0651 14.5221C93.6138 15.6396 91.8239 16.2458 89.9814 16.2439C89.6534 16.2461 89.3256 16.2275 89 16.1884C90.8748 17.3778 93.0595 18.007 95.2899 17.9999C102.835 17.9999 106.96 11.8466 106.96 6.51287C106.96 6.33433 106.954 6.16219 106.945 5.99105C107.754 5.42123 108.45 4.71098 109 3.89517Z" fill="white"/>
+                          <path opacity="0.8" d="M2.25304 5.26394C2.27662 5.01655 2.18767 4.77206 2.01353 4.60554L0.239495 2.33865V2H5.74792L10.0056 11.9047L13.7488 2H19V2.33865L17.4832 3.88123C17.3524 3.98695 17.2876 4.16074 17.3146 4.33274V15.6673C17.2876 15.8393 17.3524 16.013 17.4832 16.1188L18.9645 17.6614V18H11.5135V17.6614L13.0481 16.0811C13.1989 15.9212 13.1989 15.8742 13.1989 15.6296V6.46794L8.93232 17.9624H8.35572L3.38841 6.46794V14.1717C3.34703 14.4956 3.44844 14.8216 3.66338 15.0559L5.65921 17.6238V17.9624H0V17.6238L1.99577 15.0559C2.20923 14.8212 2.3047 14.493 2.25304 14.1717V5.26394Z" fill="white"/>
+                        </svg>
+                  </a>
+              </div>
+  
+              <div class="col-12 d-flex justify-content-center">
+                  <p class="footer-list-txt-1">© 2022 UIDesign.to - All rights reserved.</p>
+              </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="visa.js"></script>
+</body>
+</html>
